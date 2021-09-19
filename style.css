@@ -1,0 +1,306 @@
+
+ body{
+    margin-top: 0px;
+ /* font-size: 28px;  */
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+}
+ul{
+    margin-top: 0px;
+   list-style-type: none;
+   overflow: hidden;
+   background-color: whitesmoke; 
+   
+   
+}
+li{
+    float: left;
+}
+li a{
+    
+text-decoration: none;
+color: grey;
+/* margin-right: 100px; */
+display: block;
+
+/* text-align: center; */
+
+}
+img.logo-docplanner{
+    width: 50%;
+    height: 60px;
+    padding-left: 100px;
+}
+.img~li{
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+     margin-right: 80px;
+} 
+
+.t{
+    width: 70%;
+    margin-left: 170px;
+    
+    
+    font-size: 19px;
+}
+th{
+    padding-left: 80px;
+    color: gray;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.h1-lead{
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+}
+
+  label{
+    padding-left: 15px;
+    color: blue;
+}
+.h1-service{
+    padding-left: 15px;
+    color: white;
+}
+.h2-service{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+} 
+.select-duo{
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:white ;
+    border: 0px;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+ .a{
+    background-color:#00b39b ;
+    margin: 0px 10px;
+    width: 23%;
+    height: 320px;
+    border-radius: 8px;
+
+}
+.b{
+    background-color:#3d83df;
+    margin: 0px 10px;
+    width:23%;
+    height:320px;
+    border-radius: 8px;
+}
+.c{
+    background-color:#112031 ;
+    margin: 0px 10px;
+    width: 23%;
+    height: 320px;
+    border-radius: 8px;
+} 
+
+
+
+.select-one{
+margin-top: 25px;
+padding-left: 5px;
+display: block;
+border: 0px;
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+.service-items{
+     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+} 
+.h1-brands{
+    font-family: Work Sans,Arial,sans-serif;
+    width: 15%;
+    font-size: 25px;
+    font-weight:normal;
+    color: #00b39b;
+    
+}
+.brands-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: red;
+}
+.brands-ul>li{
+    padding-right: 29px;
+    
+}
+
+.brands-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.brands-ul a {
+    fill: silver;
+}
+.brands-ul a:hover{
+fill: #00b39b;
+}
+.stats-section h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;
+}
+.stats-header p{
+font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+.stats-header{
+   text-align: center;
+}
+.grid{
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 15px ; 
+    text-align: center;
+    padding: 20px 10px;
+}
+
+    .grid-container{
+        /* border: 1px solid ; */
+         display: grid;
+         grid-template-columns: repeat(2,300px) ;
+         grid-template-rows: repeat(2,240px) ;  
+         gap: 10px;
+          /* width: 700px; 
+         margin: 50px auto; */
+         justify-content: center;
+        }
+        h3{
+            color:#00b39b ;
+        }
+    .stats-section{
+        background: #e5faf8;
+        background-image:  linear-gradient(
+            -45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+            /* float: left; */
+    }
+    
+        
+
+    
+      /* .stats-header~.grid-container{
+            
+            float: right;
+        } */
+        .office-header h1{
+            color:#00b39b;
+            font-family: Work Sans,Arial,sans-serif;
+            font-weight: 300;
+        }
+        .office-header{
+            line-height: 1.7142857143;
+            color: silver;
+            text-align: center;
+        }
+
+        .btn{
+            float: right;
+            cursor: pointer;
+            background-color: #3d83df;
+            color: white;
+            border-radius: 3px;
+            font-family:Roboto,Arial,sans-serif;
+            line-height: 1em;
+            font-weight: 200;
+            }
+            .btn-small{
+                font-size: .625rem;
+                padding: 1em 1.5em;
+            }
+            .office{
+                float: left;
+                transition: box-shadow .2s ease 0s;
+                 background-color: #fff;
+                color: silver; 
+                border: 1px solid rgba(0,0,0,.03);
+                border-radius: 6px;
+                 max-width: 311px;
+                 overflow: hidden;
+                 display: block;
+                 position:relative;
+                 text-decoration: none;
+                 margin: 10px 10px;
+                 
+                }
+                .office:hover{
+                    box-shadow: 5px 10px gainsboro ;
+                    /* width: 350px;
+                    height: 360px; */
+                }
+                figure{
+                    margin: 0px;
+                    /* padding: 0px; */
+                }
+                /* figure img{
+                    max-width: 100%;
+                    height: auto;
+                } */
+                .office-desc{
+                    padding: 10px; 
+                    font-size: 1.125em;
+                    line-height: 1.6666666667;
+                    
+                }
+                .office-slide{
+                    margin-top: 10px;
+                    display: table;
+                    content: "";
+                }
+                .join-us{
+                    /* max-width: 700px; */
+                   
+                    font-size: 25px;
+                   text-align: center;
+}
+.btn{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        outline: 0;
+        border: 0;
+        border-radius: 4px;
+        padding: 1.1666666667em 1.5em;
+        background: #3d83df;
+        font-family: Roboto,Arial,sans-serif;
+        line-height: 1em;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: .04em;
+        font-size: .75rem;
+        text-align: center;
+        text-decoration: none!important;
+        text-transform: uppercase;
+        transition: all .2s ease 0s;
+       margin:0px 570px; 
+}
+                
